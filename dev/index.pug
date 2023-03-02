@@ -23,9 +23,9 @@ block header
       .p-culture Заквасочные культуры, производимые в соответствии с мировыми стандартами и богатым опытом лучших итальянских молочников
       button.art-button Узнать больше
     .imgs-block
-      img(src='').main-img
-      img(src='').sec-img
-      img(src='').sec-img
+      img(src='' alt='photo').main-img
+      img(src='' alt='photo').sec-img
+      img(src='' alt='photo').sec-img
     article.sec-art
       .p-comp Компоненты
       .p-ingrid Ингредиенты для производства качественной молочной продукции
@@ -93,7 +93,19 @@ block header
         input(type="text" placeholder='Телефон')#form-number.input-number
         input(type="text" placeholder='Электронная почта')#form-mail.input-mail
         input(type="checkbox" required)#formAgreement.input-checked
-
+        label(for='formAgreement').label-checkbox
+          span.span-checked Я ознакомлен(-а) с политикой конфиденциальности
+        button(type='submit').submit-form Отправить
+  footer.footer-flex
+    .foot-1
+      img(src="../imgs/footLogo.png", alt="logo")
+    .foot-2 ©2023. Компания “ОптиМилк” Политика конфиденциальности Разработка сайта
+    .foot-3
+      p.foot-text тел. 310-47-84
+      p.foot-text факс 361-47-82
+      p.foot-text склад 504-60-35
+      p.foot-text optimilk@tut.by
+    .foot-4 223012, Республика Беларусь, Минский район, г.п. Мачулищи, ул. Связистов, 1А,
 
 
 block scripts
